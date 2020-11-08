@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-body{
+.body-div{
   width: 100%;
   height: 100vh;
   animation: color_change 28s cubic-bezier(1, 1, 1, 1) infinite;
@@ -20,21 +20,37 @@ body{
   left: 0;
   margin: 50px 0 0 50px;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
   color: white;
   background-color: #aaaaaa
+}
+
+.bio .gitlogo{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 41px 190px 0 0;
+  padding: 10px;
+}
+
+.bio .linkedinLogo{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 41px 230px 0 0;
+  padding: 10px;
 }
 
 .bio p{
   position: absolute;
   top: 0;
   right: 0;
-  margin: 50px 0 0 50px;
+  margin: 50px 50px 0 0;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
   color: white;
   background-color: #aaaaaa;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .container{
